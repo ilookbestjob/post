@@ -1,0 +1,50 @@
+.sessionbutton {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    font-family    : tahoma;
+    cursor         : pointer;
+    background     : rgb(243, 243, 243);
+    padding        : 5px 10px;
+    font-family    : tahoma;
+
+}
+
+
+.sessionbutton_selected {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    font-family    : tahoma;
+    cursor         : pointer;
+    padding        : 5px 10px;
+    background     : rgb(248, 165, 10) linear-gradient(rgba(255, 255, 255, 0.3), rgb(250, 145, 7));
+    color          : #fff;
+    font-family    : tahoma;
+    border         : solid 1px rgb(211, 162, 29);
+}
+
+
+
+.sessionbutton:nth-child(2n) {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    font-family    : tahoma;
+    cursor         : pointer;
+    background     : rgb(233, 232, 232);
+}
+
+
+
+.sessionbutton:hover {
+    background : rgb(196, 191, 191) linear-gradient(rgba(255, 255, 255, 0.3), rgb(192, 187, 187));
+    border: solid 1px rgb(219, 219, 219);
+
+}
+
+.session {
+    margin: 10px;
+    border: solid 1px rgb(219, 219, 219);
+
+}

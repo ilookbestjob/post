@@ -1,0 +1,21 @@
+.Layout {
+    display              : grid;
+    grid-template-columns: 300px 1fr;
+    width                : auto;
+    height               : auto;
+    margin               : 0px;
+    position             : fixed;
+    left                 : 0;
+    top                  : 0;
+    right                : 0;
+    bottom               : 0;
+
+
+}
+
+
+.Container{
+display:flex;
+
+}
+

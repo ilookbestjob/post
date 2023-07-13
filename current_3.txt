@@ -1,0 +1,1 @@
+35701 сек. update `postcalc` set `post_id`=36013, del=0, `weight`='2000', `price`='101532.00', `days`='20', `postservice_id`=0, `dataupd`= '2023-05-26 01:13:53' where `row_id`=556671

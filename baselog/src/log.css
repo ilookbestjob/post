@@ -1,0 +1,36 @@
+.logg {
+
+
+    margin     : 20px;
+    width      : auto;
+    padding    : 10px;
+    font-family: tahoma;
+    font-size  : 14px;
+    height:100%;
+    overflow-y: scroll;
+    position: relative;
+    height    : 100%;
+    margin    : 0;
+    position  : fixed;
+    overflow-y: scroll;
+}
+
+.log__container {
+    display              : grid;
+    grid-template-columns: 150px 150px 1fr;
+    border               : solid 1px rgb(228, 225, 225);
+    margin-top:-1px;
+    width:100%;
+}
+.log__container:nth-child(2n) {
+    background: rgb(245, 245, 245);
+}
+
+.log__container>div {
+
+    padding: 10px
+}
+
+.hidden{
+    display:none;
+}

@@ -1,0 +1,23 @@
+.errtag {
+    background     : rgb(235, 235, 235) linear-gradient(rgba(255, 255, 255, 0.3), rgb(224, 224, 224));
+    color          : steelblue;
+    font-family    : tahoma;
+    padding        : 5px 10px;
+    border-radius  : 3px;
+    cursor         : pointer;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : auto;
+    min-width      : 100px;
+    display        : inline-flex;
+    margin         : 6px;
+    border         : rgb(203, 205, 206) solid 1px;
+
+}
+
+.logarea__tags {
+    margin-top: 50px;
+    ;
+
+}

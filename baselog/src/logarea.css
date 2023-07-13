@@ -1,0 +1,12 @@
+.logarea {
+    display              : grid;
+    grid-template-columns: 1fr;
+    grid-template-rows   : minmax(100px,200px) 1fr;
+    width:100%;
+
+}
+
+.logarea__tags {
+
+    width : 100%;
+}

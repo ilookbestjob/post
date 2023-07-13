@@ -1,0 +1,47 @@
+.companybutton {
+    background : rgb(243, 243, 243) linear-gradient(rgba(255, 255, 255, 0.3), rgb(245, 244, 244));
+    color      : rgb(16, 54, 85);
+    font-family: tahoma;
+    border:solid 1px rgb(243, 242, 242);
+    padding: 10px 5px;
+    ;
+    
+    cursor         : pointer;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : auto;
+
+}
+
+.companybutton_selected {
+    background: rgb(248, 165, 10) linear-gradient(rgba(255, 255, 255, 0.3), rgb(250, 145, 7));
+    color      : #fff;
+    font-family: tahoma;
+    border:solid 1px rgb(211, 162, 29);
+
+    padding: 10px 5px;
+
+    cursor         : pointer;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : auto;
+
+}
+
+.companybutton:hover {
+    background : rgb(231, 229, 229) linear-gradient(rgba(255, 255, 255, 0.3), rgb(224, 221, 221));
+    ;
+  border:solid 1px #ccc
+
+}
+
+.companies__container {
+    height    : 100%;
+    margin    : 0;
+    position  : fixed;
+    overflow-y: scroll;
+
+
+}
