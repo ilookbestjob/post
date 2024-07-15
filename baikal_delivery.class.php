@@ -4,7 +4,7 @@ class baikal_delivery extends delivery_company
 {
 
     //Переменные подключения к api
-    private $username = '1b3137cbe2bf593c174413dc39255b09';
+    private $username = '';
     private $password = '';
     private $dpd;
     private $messagelog;

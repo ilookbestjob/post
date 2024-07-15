@@ -4,7 +4,7 @@ class boxberry_delivery extends delivery_company
 {
 
     //Переменные подключения к api
-    private $token = "01aa5da97b953b426ca1bb5f69ccc78f";
+    private $token = "";
     private $messagelog;
     private $detalization;
     private $postid;

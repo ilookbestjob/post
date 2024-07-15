@@ -18,7 +18,7 @@
     //Переменные для авторизации на сервере API
 
     $host_api = "https://api.baikalsr.ru/";
-    $username = '1b3137cbe2bf593c174413dc39255b09';
+    $username = '';
     $password = '';
 
     $headers = array(
